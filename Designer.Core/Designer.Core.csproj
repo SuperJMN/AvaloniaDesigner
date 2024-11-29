@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
   <PropertyGroup>
-    <TargetFramework>net6</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
@@ -11,6 +11,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Designer.Domain.Models\Designer.Domain.Models.csproj" />
     <ProjectReference Include="..\Designer.Domain.ViewModels\Designer.Domain.ViewModels.csproj" />
-    <ProjectReference Include="..\ZafiroDesigner.Core\Zafiro\Source\Zafiro.Core\Zafiro.Core.csproj" />
   </ItemGroup>
 </Project>

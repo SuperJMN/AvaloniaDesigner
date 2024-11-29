@@ -1,9 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6</TargetFramework>
-    <AssemblyName>Zafiro.Avalonia</AssemblyName>
-    <RootNamespace>Zafiro.Avalonia</RootNamespace>
+      <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
    <ItemGroup>

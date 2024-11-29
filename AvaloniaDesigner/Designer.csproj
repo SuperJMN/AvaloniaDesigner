@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6</TargetFrameworks>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
@@ -23,9 +23,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Designer.Core\Designer.Core.csproj" />
     <ProjectReference Include="..\Designer.Domain.ViewModels\Designer.Domain.ViewModels.csproj" />
-    <ProjectReference Include="..\ZafiroDesigner.Core\Zafiro\Source\Zafiro.Avalonia.Design\Zafiro.Avalonia.Design.csproj" />
-    <ProjectReference Include="..\ZafiroDesigner.Core\Zafiro\Source\Zafiro.Avalonia\Zafiro.Avalonia.csproj" />
-    <ProjectReference Include="..\ZafiroDesigner.Core\Zafiro\Source\Zafiro.Core\Zafiro.Core.csproj" />
+    <ProjectReference Include="..\Zafiro.Avalonia.Design\Zafiro.Avalonia.Design.csproj" />
+    <ProjectReference Include="..\Zafiro.Avalonia\Zafiro.Avalonia.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

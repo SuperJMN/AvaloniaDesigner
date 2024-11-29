@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Designer.Domain.Models\Designer.Domain.Models.csproj" />
-    <ProjectReference Include="..\ZafiroDesigner.Core\Zafiro\Source\Zafiro.Core\Zafiro.Core.csproj" />
+    <ProjectReference Include="..\Zafiro.Core\Zafiro.Core.csproj" />
   </ItemGroup>
 
 </Project>
